@@ -1,0 +1,25 @@
+{
+  "name": "Cesar Guerrero Cruz Portafolio",
+  "short_name": "Portafolio Cesar",
+  "description": "En esta pagina presento mi portafolio profesional",
+  "theme_color": "red",
+  "background_color": "red",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "index.html",
+  "icons": [
+    {
+      "src": "icon_pwa.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "icon_pwa.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ]
+}
