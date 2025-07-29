@@ -15,6 +15,9 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@100;700&family=Nunito+Sans:opsz,wght@6..12,200&family=Ubuntu:wght@300&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
     <link rel="manifest" href="mainfest.json">
 </head>
 
@@ -25,23 +28,28 @@
         <div class="perfil">
             <img class="imgperfil" src="perfil.jpg">
         </div>
-        <h1 class="titulo">
-            Cesar Guerrero Cruz
-        </h1>
         <br>
-
         <div class="parrafo">
             <p>
                 <strong>
                     ¡Hola!, ¡soy desarrollador de software!
                 </strong>
             </p>
+            <h1 class="titulo">
+                Cesar Guerrero Cruz
+            </h1>
             <br>
             <p>
-                Apacionado por la creación de aplicaciones web y pryectos en donde se involucre el trabajo en
-                equipo y la retroalimentacion hacia el conocimineto aprendido
+                Soy desarrollador de software, diseñador digital y freelance apacionado por la creación de aplicaciones
+                web, contenido digital y pryectos en donde se involucre el trabajo en
+                equipo y la retroalimentacion hacia el conocimineto aprendido.
             </p>
+            <br>
+            <div class="botonVer">
+                <a href="#proyectosD" class="boton-descarga" style="font-size: 1.5rem;">Mis proyectos</a>
+            </div>
         </div>
+        <br>
     </section>
 
     <div class="area">
@@ -59,8 +67,13 @@
         </ul>
     </div>
 
-    <h1 class="titulo1">
-        Mis proyectos
+    <section class="descargacv">
+        <a href="CV_CGC.pdf" download="Cesar_Guerrero_Cruz_CV.pdf" class="boton-descarga">Descarga mi
+            CV</a>
+    </section>
+
+    <h1 class="titulo1" id="proyectosD">
+        Mis proyectos como desarrollador
     </h1>
 
     <div class="contenedorProj">
@@ -73,6 +86,8 @@
                     <br>
                     <p>El Encanto Recidencial</p>
                     <br>
+                    <h4 style="font-size: 1.1rem;">Sistema para presentar los gastos anuales del Encanto</h4>
+                    <br>
                 </li>
             </a>
             <a href="" target="_blank">
@@ -81,6 +96,8 @@
                         style=" height: auto; width: 100%; border-top-left-radius: 8px; border-top-right-radius: 8px;">
                     <br>
                     <p>MOCARD'S</p>
+                    <br>
+                    <h4 style="font-size: 1.1rem;">Pagina web de Mocard's</h4>
                     <br>
                 </li>
             </a>
@@ -93,6 +110,8 @@
                     <br>
                     <p>Cosmic Dream</p>
                     <br>
+                    <h4 style="font-size: 1.1rem;">Videojuego creado en UNITY</h4>
+                    <br>
                 </li>
             </a>
             <a href="https://trainingweb-frontend.onrender.com/" target="_blank">
@@ -102,227 +121,186 @@
                     <br>
                     <p>Training Web</p>
                     <br>
+                    <h4 style="font-size: 1.1rem;">Aplicacion web dedicada al control de dietas, rutinas y orientacion
+                        de la salud</h4>
+                    <br>
                 </li>
             </a>
         </ul>
     </div>
-
-    <!--     <section class=" contenidoacerca">
-        <h1 class="titulo1">
-            Habilidades
-        </h1>
-        <ul class="iconos">
-            <li style="display: flex; justify-content: center; align-items: center;">
-                <img src="./css.png" class="icon">
-            </li>
-            <li style="display: flex; justify-content: center; align-items: center;">
-                <img src="./html.png" class="icon">
-            </li>
-            <li style="display: flex; justify-content: center; align-items: center;">
-                <img src="./javascript.png" class="icon">
-            </li>
-        </ul>
-        <ul class="iconos">
-            <li style="display: flex; justify-content: center; align-items: center;">
-                <img src="./wordpress.png" class="icon">
-            </li>
-            <li style="display: flex; justify-content: center; align-items: center;">
-                <img src="./angular.png" class="icon">
-            </li>
-            <li style="display: flex; justify-content: center; align-items: center;">
-                <img src="./laravel.png" class="icon">
-            </li>
-        </ul>
-    </section> -->
-
     <h1 class="titulo1">
-        Aptitudes
+        Mis proyectos en diseño digital
     </h1>
+    <div class="contenedorProj">
 
+        <ul class="projects">
+            <li class="box">
+                <a href="https://www.facebook.com/reel/1516498945996293" target="_blank">
+                    <div class="video-container">
+                        <video src="Invitacion promocion.mp4" autoplay muted loop playsinline
+                            class="video-responsivo"></video>
+                    </div>
+
+                    <br>
+                    <p>Invitación para cumpleaños</p>
+                    <br>
+                </a>
+            </li>
+            <li class="box">
+                <a href="https://www.facebook.com/reel/1282546313489452" target="_blank">
+                    <div class="video-container">
+                        <video src="Invitacion Stitch.mp4" autoplay muted loop playsinline
+                            class="video-responsivo"></video>
+                    </div>
+                    <br>
+                    <p>Invitación para cumpleaños</p>
+                    <br>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <h1 class="titulo1">
+        Tecnologias
+    </h1>
+    <br>
     <div class="aptitudes">
-        <ul>
-            <li>
-                <p>
-                    Java
-                </p>
+        <ul class="lista">
+            <li>Lenguajes de Programación</li>
+            <li class="item">
+                <p>Java </p>
+                <i class="fa-brands fa-java"></i>
             </li>
-            <li>
-                <p>
-                    C#
-                </p>
+            <li class="item">
+                <p>C#</p>
+                <i class="fa-solid fa-code"></i>
             </li>
-            <li>
-                <p>
-                    PHP
-                </p>
+            <li class="item">
+                <p>PHP</p>
+                <i class="fa-brands fa-php"></i>
             </li>
-            <li>
-                <p>
-                    Phyton
-                </p>
+            <li class="item">
+                <p>Python</p>
+                <i class="fa-brands fa-python"></i>
             </li>
-            <li>
-                <p>
-                    Angular
-                </p>
-            </li>
-            <li>
-                <p>
-                    Laravel
-                </p>
-            </li>
-                        <li>
-                <p>
-                    SQL
-                </p>
-            </li>
-                        <li>
-                <p>
-                    PhpMyAdmin
-                </p>
+            <li class="item">
+                <p>JavaScript</p>
+                <i class="fa-brands fa-js"></i>
             </li>
         </ul>
-        <ul>
-                        <li>
-                <p>
-                    PostgressSQL
-                </p>
+
+        <ul class="lista">
+            <li>Font End</li>
+            <li class="item">
+                <p>HTML</p>
+                <i class="fa-solid fa-code"></i>
             </li>
-            <li>
-                <p>
-                    HTML
-                </p>
+            <li class="item">
+                <p>CSS</p>
+                <i class="fa-brands fa-css3"></i>
             </li>
-            <li>
-                <p>
-                    CSS
-                </p>
-            <li>
-                <p>
-                    JavaScript
-                </p>
+            <li class="item">
+                <p>Wordpress</p>
+                <i class="fa-brands fa-wordpress"></i>
             </li>
-            <li>
-                <p>
-                    TypeScript
-                </p>
+            <li class="item">
+                <p>Angular</p>
+                <i class="fa-brands fa-angular"></i>
             </li>
-            <li>
-                <p>
-                    Wordpress
-                </p>
+            <li class="item">
+                <p>Laravel</p>
+                <i class="fa-brands fa-laravel"></i>
+            </li>
+        </ul>
+
+        <ul class="lista">
+            <li>Back End y Herramientas</li>
+            <li class="item">
+                <p>SQL</p>
+                <i class="fa-solid fa-database"></i>
+            </li>
+            <li class="item">
+                <p>Git</p>
+                <i class="fa-brands fa-git"></i>
+            </li>
+            <li class="item">
+                <p>Unity</p>
+                <i class="fa-brands fa-unity"></i>
+            </li>
+            <li class="item">
+                <p>Power BI</p>
+                <i class="fa-solid fa-chart-line"></i>
             </li>
         </ul>
     </div>
-
-    <!--<table style="border-collapse: separate; border-spacing: 5px 2px; width: 100%; padding: 50px;">
-                <tbody>
-                    <tr>
-                        <td style="width: 25%;">
-                            Java
-                        </td>
-                        <td>
-
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="width: 25%;">
-                            JavaScript
-                        </td>
-                        <td>
-
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="width: 25%;">
-                            PHP
-                        </td>
-                        <td>
-
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="width: 25%;">
-                            Python
-                        </td>
-                        <td>
-
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="width: 25%;">
-                            C++
-                        </td>
-                        <td>
-
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="width: 25%;">
-                            MongoDB
-                        </td>
-                        <td>
-
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="width: 25%;">
-                            MySQL
-                        </td>
-                        <td>
-
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="width: 25%;">
-                            Angular
-                        </td>
-                        <td>
-
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="width: 25%;">
-                            Laravel
-                        </td>
-                        <td>
-
-                        </td>
-                    </tr>
-                    <tr>
-                        <td style="width: 25%;">
-                            Flutter
-                        </td>
-                        <td>
-
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-            
-    </div>-->
-
-        <h1 class="titulo1">
-            Contactame Por aquí.
-        </h1>
-
-    <div class="contacto">
-        <form class="formulario">
-            <label for="Name">Nombre</label>
-            <input type="text" id="name">
-            <label for="Email">Correo</label>
-            <input type="email" id="email">
-            <label for="Coments">Comentarios</label>
-            <textarea id="coments" cols="30" rows="5"></textarea>
-            <input class="btnenviar" type="submit" value="Enviar">
-        </form>
+    <br>
+    <div class="parrafo">
+        <p><Strong>Otros</Strong></p>
     </div>
-
-    <section class="descargacv">
-        <a href="Cesar_Guerrero Cruz_CV .pdf" download="Cesar_Guerrero_Cruz_CV.pdf" class="boton-descarga">Descarga mi
-            CV</a>
-    </section>
-
+    <br>
+    <div class="aptitudes">
+        <li class="item">
+            <p>Microsoft Office</p>
+            <i class="fa-solid fa-file-csv"></i>
+        </li>
+        <li class="item">
+            <p>Adobe Photoshop</p>
+            <i class="fa-solid fa-image"></i>
+        </li>
+        <li class="item">
+            <p>Adobe Illustrator</p>
+            <i class="fa-solid fa-image"></i>
+        </li>
+        <li class="item">
+            <p>Wondershare Filmora X</p>
+            <i class="fa-solid fa-photo-film"></i>
+        </li>
+            <li class="item">
+            <p>FlStudio</p>
+            <i class="fa-solid fa-file-audio"></i>
+        </li>
+    </div>
+    <br>
+    <br>
+    <br>
 </body>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 footer-section">
+                <div class="footer-logo">Cesar Guerrero Cruz | Mi portafolio web</div>
+                <p class="footer-about">Gracias por llegar hasta aquí. En este sitio presento lo que amo hacer y pongo
+                    todo el corazon en realizar un buen trabajo.</p>
+                <h5>Mis redes sociales</h5>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/profile.php?id=61577908641141" target="_blank"
+                        class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://wa.me/4181373171" target="_blank" class="social-icon"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.linkedin.com/in/cesar-guerrero-cruz-330575291/" target="_blank"
+                        class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <br>
+            <div class="col-lg-4 footer-section">
+                <h5>Contacto </h5>
+                <p class="footer-about">Mandame un mensaje por correo para estar en contacto.</p>
+                <form action="https://formsubmit.co/cesarcruz61717@gmail.com" method="POST">
+                <div class="footer-newsletter">
+                    <input type="text" name="name" placeholder="Nombre" required>
+                    <input type="email" name="email" placeholder="Correo"  required>
+                    <input type="text" name="message" placeholder="Redacta tu mensaje">
+                    <button type="submit" class="newsletter-btn">Enviar <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+                </form>
+                <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025 Cesar Guerrero Cruz. | Todos los derechos reservados.</p>
+        </div>
+    </div>
+</footer>
 
 </html>
