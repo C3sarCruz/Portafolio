@@ -9,4 +9,3 @@ self.addEventListener("activate", (e) => {
 self.addEventListener("fetch", (e) => {
   e.respondWith(e.request);
 });
-

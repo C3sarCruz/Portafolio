@@ -22,6 +22,66 @@
 </head>
 
 <body>
+    <!-- <a class="boton-descarga" style="font-size: 1.2rem;">Mis proyectos</a> -->
+    <div class="area"></div>
+    <nav class="main-menu">
+        <ul>
+            <li>
+                <a href="#proyectosD">
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <span class="nav-text">
+                        Mis proyectos
+                    </span>
+                </a>
+
+            </li>
+            <li class="has-subnav">
+                <a href="#tecnologias">
+                    <i class="fa-solid fa-code"></i>
+                    <span class="nav-text">
+                        Tecnologías
+                    </span>
+                </a>
+
+            </li>
+            <li class="has-subnav">
+                <a href="#redes">
+                    <i class="fa-brands fa-facebook"></i>
+                    <span class="nav-text">
+                        Redes sociales
+                    </span>
+                </a>
+
+            </li>
+            <li class="has-subnav">
+                <a href="#contacto">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span class="nav-text">
+                        Contacto
+                    </span>
+                </a>
+
+            </li>
+            <li>
+                <a href="CV_CGC.pdf" download="Cesar_Guerrero_Cruz_CV.pdf" id="descargar">
+                    <i class="fa-solid fa-file"></i>
+                    <span class="nav-text">
+                        Descargar mi CV
+                    </span>
+                </a>
+            </li>
+        </ul>
+
+        <script>
+            document.getElementById('descargar').addEventListener('click', function (event) {
+                const confirmar = confirm("¿Estás seguro de que quieres descargar este archivo?");
+                if (!confirmar) {
+                    event.preventDefault();
+                }
+            });
+        </script>
+
+    </nav>
     <a href="#enlace" class="btna"><img src="btnsub.png"></a>
     <section class="contenedor" id="enlace">
 
@@ -45,9 +105,6 @@
                 equipo y la retroalimentacion hacia el conocimineto aprendido.
             </p>
             <br>
-            <div class="botonVer">
-                <a href="#proyectosD" class="boton-descarga" style="font-size: 1.5rem;">Mis proyectos</a>
-            </div>
         </div>
         <br>
     </section>
@@ -67,11 +124,13 @@
         </ul>
     </div>
 
-    <section class="descargacv">
+
+
+    <!--     <section class="descargacv">
         <a href="CV_CGC.pdf" download="Cesar_Guerrero_Cruz_CV.pdf" class="boton-descarga">Descarga mi
             CV</a>
     </section>
-
+ -->
     <h1 class="titulo1" id="proyectosD">
         Mis proyectos como desarrollador
     </h1>
@@ -134,8 +193,8 @@
     <div class="contenedorProj">
 
         <ul class="projects">
-            <li class="box">
-                <a href="https://www.facebook.com/reel/1516498945996293" target="_blank">
+            <a href="https://www.facebook.com/reel/1516498945996293" target="_blank">
+                <li class="box">
                     <div class="video-container">
                         <video src="Invitacion promocion.mp4" autoplay muted loop playsinline
                             class="video-responsivo"></video>
@@ -144,10 +203,10 @@
                     <br>
                     <p>Invitación para cumpleaños</p>
                     <br>
-                </a>
-            </li>
-            <li class="box">
-                <a href="https://www.facebook.com/reel/1282546313489452" target="_blank">
+                </li>
+            </a>
+            <a href="https://www.facebook.com/reel/1282546313489452" target="_blank">
+                <li class="box">
                     <div class="video-container">
                         <video src="Invitacion Stitch.mp4" autoplay muted loop playsinline
                             class="video-responsivo"></video>
@@ -155,80 +214,82 @@
                     <br>
                     <p>Invitación para cumpleaños</p>
                     <br>
-                </a>
-            </li>
+                </li>
+            </a>
         </ul>
     </div>
-    <h1 class="titulo1">
-        Tecnologias
+    <h1 class="titulo1" id="tecnologias">
+        Tecnologías
     </h1>
     <br>
     <div class="aptitudes">
-        <ul class="lista">
+        <ul class="project">
             <li>Lenguajes de Programación</li>
-            <li class="item">
+            <li class="box">
                 <p>Java </p>
                 <i class="fa-brands fa-java"></i>
             </li>
-            <li class="item">
+            <li class="box">
                 <p>C#</p>
                 <i class="fa-solid fa-code"></i>
             </li>
-            <li class="item">
+            <li class="box">
                 <p>PHP</p>
                 <i class="fa-brands fa-php"></i>
             </li>
-            <li class="item">
+            <li class="box">
                 <p>Python</p>
                 <i class="fa-brands fa-python"></i>
             </li>
-            <li class="item">
+            <li class="box">
                 <p>JavaScript</p>
                 <i class="fa-brands fa-js"></i>
             </li>
         </ul>
-
-        <ul class="lista">
+        <ul class="project">
             <li>Font End</li>
-            <li class="item">
+            <li class="box">
                 <p>HTML</p>
                 <i class="fa-solid fa-code"></i>
             </li>
-            <li class="item">
+            <li class="box">
                 <p>CSS</p>
                 <i class="fa-brands fa-css3"></i>
             </li>
-            <li class="item">
+            <li class="box">
                 <p>Wordpress</p>
                 <i class="fa-brands fa-wordpress"></i>
             </li>
-            <li class="item">
+            <li class="box">
                 <p>Angular</p>
                 <i class="fa-brands fa-angular"></i>
             </li>
-            <li class="item">
+            <li class="box">
                 <p>Laravel</p>
                 <i class="fa-brands fa-laravel"></i>
             </li>
         </ul>
-
-        <ul class="lista">
+        <ul class="project">
             <li>Back End y Herramientas</li>
-            <li class="item">
+            <li class="box">
                 <p>SQL</p>
                 <i class="fa-solid fa-database"></i>
             </li>
-            <li class="item">
+            <li class="box">
                 <p>Git</p>
                 <i class="fa-brands fa-git"></i>
             </li>
-            <li class="item">
+            <li class="box">
                 <p>Unity</p>
                 <i class="fa-brands fa-unity"></i>
             </li>
-            <li class="item">
+            <li class="box">
                 <p>Power BI</p>
                 <i class="fa-solid fa-chart-line"></i>
+            </li>
+            <li class="box">
+                <p>Microsoft Office</p>
+                <i class="fa-solid fa-file-csv"></i>
             </li>
         </ul>
     </div>
@@ -238,26 +299,30 @@
     </div>
     <br>
     <div class="aptitudes">
-        <li class="item">
-            <p>Microsoft Office</p>
-            <i class="fa-solid fa-file-csv"></i>
-        </li>
-        <li class="item">
-            <p>Adobe Photoshop</p>
-            <i class="fa-solid fa-image"></i>
-        </li>
-        <li class="item">
-            <p>Adobe Illustrator</p>
-            <i class="fa-solid fa-image"></i>
-        </li>
-        <li class="item">
-            <p>Wondershare Filmora X</p>
-            <i class="fa-solid fa-photo-film"></i>
-        </li>
-            <li class="item">
-            <p>FlStudio</p>
-            <i class="fa-solid fa-file-audio"></i>
-        </li>
+        <ul class="lista">
+            <li class="box">
+                <p>Adobe Photoshop</p>
+                <i class="fa-solid fa-image"></i>
+            </li>
+        </ul>
+        <ul class="lista">
+            <li class="box">
+                <p>Adobe Illustrator</p>
+                <i class="fa-solid fa-image"></i>
+            </li>
+        </ul>
+        <ul class="lista">
+            <li class="box">
+                <p>Wondershare Filmora X</p>
+                <i class="fa-solid fa-photo-film"></i>
+            </li>
+        </ul>
+        <ul class="lista">
+            <li class="box">
+                <p>FlStudio</p>
+                <i class="fa-solid fa-file-audio"></i>
+            </li>
+        </ul>
     </div>
     <br>
     <br>
@@ -271,27 +336,30 @@
                 <div class="footer-logo">Cesar Guerrero Cruz | Mi portafolio web</div>
                 <p class="footer-about">Gracias por llegar hasta aquí. En este sitio presento lo que amo hacer y pongo
                     todo el corazon en realizar un buen trabajo.</p>
-                <h5>Mis redes sociales</h5>
+                <h5 id="redes">Mis redes sociales</h5>
                 <div class="social-links">
                     <a href="https://www.facebook.com/profile.php?id=61577908641141" target="_blank"
                         class="social-icon"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://wa.me/4181373171" target="_blank" class="social-icon"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://wa.me/4181373171" target="_blank" class="social-icon"><i
+                            class="fa-brands fa-whatsapp"></i></a>
                     <a href="https://www.linkedin.com/in/cesar-guerrero-cruz-330575291/" target="_blank"
                         class="social-icon"><i class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
             <br>
             <div class="col-lg-4 footer-section">
-                <h5>Contacto </h5>
+                <h5 id="contacto">Contacto </h5>
                 <p class="footer-about">Mandame un mensaje por correo para estar en contacto.</p>
                 <form action="https://formsubmit.co/cesarcruz61717@gmail.com" method="POST">
-                <div class="footer-newsletter">
-                    <input type="text" name="name" placeholder="Nombre" required>
-                    <input type="email" name="email" placeholder="Correo"  required>
-                    <input type="text" name="message" placeholder="Redacta tu mensaje">
-                    <button type="submit" class="newsletter-btn">Enviar <i class="fas fa-paper-plane"></i>
-                    </button>
-                </div>
+                    <div class="footer-newsletter">
+                        <input type="text" name="name" placeholder="Nombre" required>
+                        <input type="email" name="email" placeholder="Correo" required>
+                        <input type="text" name="message" placeholder="Redacta tu mensaje">
+                        <div class="parrafo">
+                            <button type="submit" class="newsletter-btn">Enviar<i class="fas fa-paper-plane"></i>
+                            </button>
+                        </div>
+                    </div>
                 </form>
                 <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
             </div>
